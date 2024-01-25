@@ -81,4 +81,8 @@ impl LocReqConfig {
         }
         url 
     }
+
+    pub async fn send(&self) -> Result<LocationResp, GenericError> {
+        CONTINUE HERE 
+    }
 }
